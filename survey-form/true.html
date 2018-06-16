@@ -22,7 +22,7 @@
       <form class="survey-form"  id="survey-form">
         <div class="input-text">
             <div class="labels">
-                <label id="nombre-label" for="nombre"><sup>*</sup> Nombre:</label>
+                <label id="name-label" for="nombre"><sup>*</sup> Nombre:</label>
             </div>
             <div class="rightTab">
                 <input type="text" name="name" id="name" class="input-field" required placeholder="Enter your name">
@@ -38,10 +38,25 @@
         </div>
         <div class="rowTab">
             <div class="labels">
-                <label id="email-label" for="phone-number"><sup>*</sup> Phone Number: </label>
+                <label id="number-label" for="phone-number"><sup>*</sup> Phone Number: </label>
             </div>
             <div class="rightTab">
-                <input type="number" name="phone-number" id="number" class="input-field" required placeholder="Enter your phone number">
+                <input type="number" name="phone-number" id="number" class="input-field" min="1" max="999999999" required placeholder="Enter your phone number">
+            </div>
+        </div>
+        <div class="rowTab">
+            <div class="labels">
+                <label id="dropdown-label" for="dropdown"><sup>*</sup> How did you hear about us? </label>
+            </div>
+            <div class="rightTab">
+                <select id="dropdown" name="currentPos" class="dropdown">
+                    <option disabled value>Select an option</option>
+                    <option  value="student">Facebook</option>
+                    <option value="job">Google</option>
+                    <option value="learner">Friend</option>
+                    <option value="preferNo">Relative</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
         </div>
       </form>
