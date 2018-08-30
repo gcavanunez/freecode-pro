@@ -1,0 +1,157 @@
+1.- BUSQUEDA DE MICROCHIP
+
+2.- PARA USUARIOS:
+
+- REGISTRO
+
+PROPIETARIO:
+	- Nombre y apellido del propietario
+	- DNI
+	- Direccion
+	- Telefono
+	- Correo	
+MASCOTA:
+	- Nombre
+	- Especie
+	- Raza
+	- Sexo
+	- Color
+
+PAGA:
+Con depósito
+Con tarjeta
+----------------------------------------------------------------------
+
+- ACTUALIZACIÒN DE DATOS
+
+Para validar: N° de microchip + DNI + Telefono
+
+PROPIETARIO:
+	- Direccion
+	- Telefono
+	- Correo
+
+----------------------------------------------------------------------
+- CAMBIO DE TITULARIDAD
+
+Para validar: N° de microchip + DNI + Telefono 
+
+PROPIETARIO:
+	- Nombre y apellido del propietario
+	- DNI
+	- Direccion
+	- Telefono
+	- Correo
+
+----------------------------------------------------------------------
+
+- CENTROS AFILIADOS
+
+	- Lista de centros afiliados
+
+----------------------------------------------------------------------
+
+
+3.- PARA CENTROS VETERINARIOS / EMPRESAS / ORGANIZACIONES:
+
+- SOLICITUD DE REGISTRO
+
+CENTRO VETERINARIO:
+	- Nombre 
+	- RUC
+	- Nombre del encargado
+	- Direccion
+	- Telefono
+	- Correo
+
+- INTRANET
+- ACTUALIZACIÒN DE DATOS
+
+CENTRO VETERINARIO:
+	- Direccion
+	- Telefono
+	- Correo
+
+- PROTOCOLOS
+- TUTORIALES
+
+---------------------------------------------------
+
+ANIMALES PERDIDOS 
+
+- NOMBRE DE LA MASCOTA
+- RAZA
+- ESPECIE
+- COLOR
+- CARACTERISTICAS
+- ¿DONDE SE PERDIÓ?
+- SUBIR FOTO
+
+
+ANIMALES ENCONTRADOS
+
+- RAZA
+- ESPECIE
+- COLOR
+- CARACTERISTICAS
+- ¿DONDE SE ENCONTRÓ?
+- SUBIR FOTO
+
+
+EN ADOPCIÓN
+
+- NOMBRE DE LA MASCOTA
+- MICROCHIP N° (opcional)
+- RAZA
+- ESPECIE
+- COLOR
+- CARACTERISTICAS
+- SUBIR FOTO
+
+
+--------------------------------------------------------
+
+
+AGREGAR MENU "CONVENIOS"
+CAMBIAR MENU PERDIDOS Y ENCONTRADOS A "REPORTAR" CON SUBMENUS
+
+
+
+
+-------------------------------------------------------------
+
+
+COMO FUNCIONA:
+
+INFOGRAFIA DE PET ID (DESDE EL MICROCHIP HASTA LA RECUPERACION DE LA MASCOTA)
+
+
+----------------------------------------------------------------------------
+
+
+AÑADIR "CENTROS AFILIADOS" AL MENÙ, A LA SECCION DE USUARIO Y A LA SECCION DE VETERINARIOS
+
+
+-------------------------------------------------------------------------------------
+
+
+CONTACTO:
+
+MAPA DE LA OFICINA
+TELEFONO
+CORREO
+HORARIO DE ATENCION
+FORMULARIO DE CONTACTO CON OPCIÒN A RESERVA
+
+--------------------------------------------------------------------------------------
+
+QUITAR COMO ME REGISTRO
+
+-------------------------------------------------------------------------------------
+
+AÑADIR MENÚ "BASE LEGAL"
+
+ORDENANZAS MUNICIPALES DONDE YA SE PIDE EL MICROCHIP
+AÑADIR SUBMENU ESTADISTICA
+
+
