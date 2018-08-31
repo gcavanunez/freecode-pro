@@ -12,130 +12,137 @@
 </head>
 
 <body>
-  <form class="needs-validation" novalidate>
-    <div class="container ">
-      <div class="form-row ">
-        <div class="form-group col-md-6 col-sm-12 ">
-          <label for="nombres ">Nombres</label>
-          <input type="text " class="form-control " id="nombres " name="nombres " placeholder="tus nombres " required>
-
-        </div>
-        <div class="form-group col-md-6 col-sm-12 ">
-          <label for="apellidos ">Apellidos</label>
-          <input type="text " class="form-control " id="apellidos " name="apellidos " placeholder="tus apellidos " required>
-        </div>
-      </div>
-      <div class="form-row ">
-        <div class="form-group col-md-6 col-sm-12 ">
-          <label for="email ">Correo Electronico</label>
-          <input type="email " class="form-control " id="email " name="email " placeholder="tucorreo@ejemplo.com " required>
-        </div>
-        <div class="form-group col-md-4 col-sm-6 ">
-          <label for="tipodoc ">Tipo de Documento</label>
-          <select id="tipodoc " name="tipodoc " class="form-control ">
-            <option selected>Seleccione...</option>
-            <option>DNI</option>
-            <option>Pasaporte</option>
-            <option>Carnet Extrangeria</option>
-          </select>
-        </div>
-        <div class="form-group col-md-2 col-sm-6 ">
-          <label for="numero_doc ">Numero de Documento</label>
-          <input type="number " class="form-control " id="numero_doc ">
-        </div>
-      </div>
-      <div class="form-row ">
-        <div class="form-group col-md-6 col-sm-12 ">
-          <label for="fijo ">Telefono Fijo</label>
-          <input type="text " class="form-control " name="fijo " id="fijo ">
-        </div>
-        <div class="form-group col-md-6 col-sm-12 ">
-          <label for="celular ">Telefono Celular</label>
-          <input type="text " class="form-control " name="celular " id="celular ">
-        </div>
-      </div>
-      <div class="form-row ">
-        <div class="form-group col-md-4 col-sm-9 ">
-          <label for="address ">Direccion</label>
-          <input type="text " class="form-control " name="address " id="address ">
-        </div>
-        <div class="form-group col-md-2 col-sm-3 ">
-          <label for="district ">Distrito</label>
-          <input type="text " class="form-control " name="district " id="district ">
-        </div>
-        <div class="form-group col-md-4 col-9">
-          <label for="city ">Ciudad</label>
-          <input type="text" class="form-control " name="city" id="city" name="city">
-        </div>
-        <div class="form-group col-md-2 col-3">
-          <label for="country ">Pais</label>
-          <input type="text " class="form-control " id="country" name="country" value="Peru" disabled>
-        </div>
-      </div>
-      <hr>
-      <div class="form-row ">
-        <div class="form-group col-md-3 col-12 ">
-          <label for="petname">Nombre de Mascota</label>
-          <input type="text " class="form-control " id="petname" name="petname" placeholder="nombre de tu engreido" required>
-
-        </div>
-        <div class="form-group col-md-3 col-12 ">
-          <label for="especie">Especie</label>
-          <input type="text " class="form-control " id="especie " name="especie " placeholder="Can, felino ..." required>
-        </div>
-        <div class="form-group col-md-3 col-12 ">
-          <label for="race">Raza</label>
-          <input type="text " class="form-control " id="race" name="race" placeholder="Husky, Angora, Labrador ..." required>
-
-        </div>
-        <div class="form-group col-md-3 col-12 ">
-          <label for="color">Color</label>
-          <input type="text " class="form-control " id="color " name="color " placeholder="Color del su pelaje" required>
-        </div>
-      </div>
-
-      <div class="form-row ">
-        <div class="custom-file mb-2">
-          <input type="file" class="custom-file-input" id="customFileLang" lang="es">
-          <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
-        </div>
-      </div>
-      <div class="form-row ">
-        <div class="form-group col-md-4 col-sm-6 ">
-          <label for="sexo">Sexo de la macota</label>
-          <select id="sexo" name="sexo" class="form-control ">
-            <option selected>Seleccione...</option>
-            <option>Macho</option>
-            <option>Hembra</option>
-          </select>
-        </div>
-        <div class="form-group col-md-4 col-sm-6 ">
-          <label for="reproductivo">Condicion Reproductivo</label>
-          <select id="reproductivo" name="reproductivo" class="form-control ">
-            <option selected>Seleccione...</option>
-            <option>Esteril</option>
-            <option>No Esterilizado</option>
-          </select>
-        </div>
-        <div class="form-group col-md-2 col-3 ">
-          <label for="reproductivo small">Fecha de Nacimiento </label>
-          <input type="number" class="form-control " id="color" name="day" placeholder="01-31" required>
-
-        </div>
-        <div class="form-group col-md-1 col-3 ">
-          <label for="reproductivo">Mes</label>
-          <input type="number" class="form-control " id="color" name="month" placeholder="01-12" required>
-
-        </div>
-        <div class="form-group col-md-1 col-3 ">
-          <label for="reproductivo">Año</label>
-          <input type="number " class="form-control " id="color" name="year" placeholder="XXXX" required>
-        </div>
-      </div>
-      <button type="submit " class="btn btn-primary ">Sign in</button>
+  <div class="row">
+    <div class="col-12 col-md-2">
+      <div style="line-height:32px;"></div>
     </div>
+    <div class="col-12 col-md-8">
 
-  </form>
+      <form class="needs-validation" novalidate>
+        <div class="container ">
+          <div class="form-row ">
+            <div class="form-group col-md-6 col-sm-12 ">
+              <label for="nombres ">Nombres</label>
+              <input type="text " class="form-control " id="nombres " name="nombres " placeholder="tus nombres " required>
+
+            </div>
+            <div class="form-group col-md-6 col-sm-12 ">
+              <label for="apellidos ">Apellidos</label>
+              <input type="text " class="form-control " id="apellidos " name="apellidos " placeholder="tus apellidos " required>
+            </div>
+          </div>
+          <div class="form-row ">
+            <div class="form-group col-md-6 col-sm-12 ">
+              <label for="email ">Correo Electronico</label>
+              <input type="email " class="form-control " id="email " name="email " placeholder="tucorreo@ejemplo.com " required>
+            </div>
+            <div class="form-group col-md-3 col-6 ">
+              <label for="tipodoc ">Tipo de Documento</label>
+              <select id="tipodoc " name="tipodoc " class="form-control ">
+                <option selected>Seleccione...</option>
+                <option>DNI</option>
+                <option>Pasaporte</option>
+                <option>Carnet Extrangeria</option>
+              </select>
+            </div>
+            <div class="form-group col-md-3 col-6 ">
+              <label for="numero_doc ">Numero de Documento</label>
+              <input type="number " class="form-control " id="numero_doc ">
+            </div>
+          </div>
+          <div class="form-row ">
+            <div class="form-group col-md-6 col-sm-12 ">
+              <label for="fijo ">Telefono Fijo</label>
+              <input type="text " class="form-control " name="fijo " id="fijo ">
+            </div>
+            <div class="form-group col-md-6 col-sm-12 ">
+              <label for="celular ">Telefono Celular</label>
+              <input type="text " class="form-control " name="celular " id="celular ">
+            </div>
+          </div>
+          <div class="form-row ">
+            <div class="form-group col-md-4 col-sm-9 ">
+              <label for="address ">Direccion</label>
+              <input type="text " class="form-control " name="address " id="address ">
+            </div>
+            <div class="form-group col-md-2 col-sm-3 ">
+              <label for="district ">Distrito</label>
+              <input type="text " class="form-control " name="district " id="district ">
+            </div>
+            <div class="form-group col-md-4 col-9">
+              <label for="city ">Ciudad</label>
+              <input type="text" class="form-control " name="city" id="city" name="city">
+            </div>
+            <div class="form-group col-md-2 col-3">
+              <label for="country ">Pais</label>
+              <input type="text " class="form-control " id="country" name="country" value="Peru" disabled>
+            </div>
+          </div>
+          <hr>
+          <div class="form-row ">
+            <div class="form-group col-md-3 col-12 ">
+              <label for="petname">Nombre de Mascota</label>
+              <input type="text " class="form-control " id="petname" name="petname" placeholder="nombre de tu engreido" required>
+
+            </div>
+            <div class="form-group col-md-3 col-12 ">
+              <label for="reproductivo small">Fecha de Nacimiento </label>
+              <input type="number" class="form-control " id="color" name="day" placeholder=" Dia/Mes/Año" required>
+
+            </div>
+            <div class="form-group col-md-3 col-12 ">
+              <label for="sexo">Sexo de la macota</label>
+              <select id="sexo" name="sexo" class="form-control ">
+                <option selected>Seleccione...</option>
+                <option>Macho</option>
+                <option>Hembra</option>
+              </select>
+            </div>
+            <div class="form-group col-md-3 col-12 ">
+              <label for="reproductivo">Condicion Reproductivo</label>
+              <select id="reproductivo" name="reproductivo" class="form-control ">
+                <option selected>Seleccione...</option>
+                <option>Esteril</option>
+                <option>No Esterilizado</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row ">
+
+            <div class="form-group col-md-4 col-12 ">
+              <label for="especie">Especie</label>
+              <input type="text " class="form-control " id="especie " name="especie " placeholder="Can, felino ..." required>
+            </div>
+            <div class="form-group col-md-4 col-12 ">
+              <label for="race">Raza</label>
+              <input type="text " class="form-control " id="race" name="race" placeholder="Husky, Angora, Labrador ..." required>
+
+            </div>
+            <div class="form-group col-md-4 col-12 ">
+              <label for="color">Color</label>
+              <input type="text " class="form-control " id="color " name="color " placeholder="Su pelaje" required>
+            </div>
+          </div>
+          <div class="form-row ">
+
+            <div class="custom-file mb-4  col-12">
+              <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+              <label class="custom-file-label" for="customFileLang">Seleccionar foto</label>
+            </div>
+
+          </div>
+          <button type="submit " class="btn btn-primary ">Registrar</button>
+        </div>
+
+      </form>
+    </div>
+    <div class="col-12 col-md-2">
+
+      <div style="line-height:32px;"></div>
+    </div>
+  </div>
+
   <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     (function () {
@@ -155,6 +162,7 @@
         });
       }, false);
     })();
+    jQuery('#wpcf7-f521-p519-o1').children('.wpcf7-form').addClass('needs-validation');
   </script>
 </body>
 
